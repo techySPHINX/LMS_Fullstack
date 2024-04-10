@@ -10,4 +10,4 @@ class error_handler extends Error{
 
 }
 
-module.exports = error_handler;
+export default error_handler;
