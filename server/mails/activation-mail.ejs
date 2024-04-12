@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Lms Email Junction</title>
+    <title>Lms JK-Email Junction</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style type="text/css">
@@ -70,7 +70,14 @@
 
         </div>
         <div class="email-body">
-            <p></p>
+            <p>Hello <%= user.name %></p>
+            <p>Thank You for registering in JK Junction. To activate your account , please use the following activation code:</p>
+            <h2><%= activationcode %></h2>
+            <p>Please enter this code on activation page within next 5 minutes.</p>
+            <p>If you did not register for thsi, Pleaseignore thei email.</p>
+        </div>
+        <div class="email-footer">
+            <p>If you have any doubt or questions, Please don't hesistate to contact usat <a href="jk5222404@gmail.com">support@jkjunction.com</a></p>
         </div>
     </div>
 </body>
