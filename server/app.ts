@@ -7,6 +7,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import { request } from "http";
 import error_middleware from "./middlewares/error";
+import userRouter from "./routes/user.route";
 
 //body parser
 app.use(express.json({ limit: "50mb" }));
@@ -24,6 +25,8 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+
+app.use("/api/v1",userRouter);
 
 //testing api
 app.get("/test", (req: Request, res: Response, next: NextFunction) => {
