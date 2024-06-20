@@ -24,9 +24,11 @@ Our next project aims to develop a comprehensive Learning Management System (LMS
 To get started with the project, please ensure that you have the necessary development environment set up. Follow the steps below to configure your development environment:
 
 - Clone the Repository: Begin by cloning the project repository to your local machine using the following command:
+  
 ```git clone <repository-url> ```
 
 - Install Dependencies: Navigate to the project directory and install the required dependencies by running the following command:
+  
 ```npm install```
 
 - Environment Variables: Create a .env file in the project root directory and define the necessary environment variables, including database credentials, API keys, and any other sensitive information.
@@ -34,6 +36,7 @@ To get started with the project, please ensure that you have the necessary devel
 - Database Setup: Configure the database connection by updating the database credentials in the project's configuration files. Use scripts or migrations to set up the initial database schema and seed data if applicable.
 
 - Launch the Application: Once the setup is complete, launch the application using the appropriate command. For example, if the project uses Node.js, you can start the application with:
+  
 ```npm start```
 
 - Upload Images: To upload images, integrate a suitable image upload functionality within the application. Ensure that the uploaded images are stored securely and efficiently, and the relevant paths or URLs are correctly managed.
